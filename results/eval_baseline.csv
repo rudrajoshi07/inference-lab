@@ -1,5 +1,5 @@
 id,category,correct,finish,output
-math-0,math,1,"Let's denote Darrell's age as \( D \) and Allen's age as \( A \). According to the problem, the ratio of their ages is 7:11, which can be written as:
+math-0,math,1,stop,"Let's denote Darrell's age as \( D \) and Allen's age as \( A \). According to the problem, the ratio of their ages is 7:11, which can be written as:
 \[ \frac{D}{A} = \frac{7}{11} \]
 
 We also know that their combined age is 162:
@@ -27,7 +27,7 @@ Next, we need to find out how many years it will take for Allen to be 10 years o
 \[ 99 + 10 = 109 \]
 
 Therefore, Allen's age 10 years from now will be 109 years old."
-math-1,math,0,"Let's break down the problem step by step.
+math-1,math,0,stop,"Let's break down the problem step by step.
 
 1. **Initial Stickers:**
    - Small stickers: 30
@@ -55,7 +55,7 @@ math-1,math,0,"Let's break down the problem step by step.
 7. **Final total number of buttons:**
    - Buttons from small stickers: 87
   "
-math-2,math,1,"To solve this problem, we need to follow these steps:
+math-2,math,1,stop,"To solve this problem, we need to follow these steps:
 
 1. Determine how many letters are in Indras' name.
 2. Calculate how many letters are in her sister's name based on the given information.
@@ -74,7 +74,7 @@ Now, let's add up all the letters from both names:
 \[ 6 (Indras') + 7 (sister's) = 13 \]
 
 Answer: 13"
-math-3,math,1,"Step 1: Determine how many laps Trey can run.
+math-3,math,1,stop,"Step 1: Determine how many laps Trey can run.
 Trey can run 4 more laps than Bethany.
 Bethany runs 10 laps.
 
@@ -102,7 +102,7 @@ Step 4: Calculate how many more laps Bethany can run compared to Quinn.
 \[ \text{Difference} = 5 \]
 
 Answer: 5"
-math-4,math,0,"Let's break down the problem step by step:
+math-4,math,0,stop,"Let's break down the problem step by step:
 
 1. Initially, there are 5 children.
 2. After reaching the end of the first street, these 5 children become part of the group, so we add them to the initial count:
@@ -115,7 +115,7 @@ math-4,math,0,"Let's break down the problem step by step:
 So, after all the children join together, there are 40 children following the ice cream truck.
 
 Answer: 40"
-math-5,math,0,"To determine how many minutes Kim slept on her bed that day, we need to follow these steps:
+math-5,math,0,stop,"To determine how many minutes Kim slept on her bed that day, we need to follow these steps:
 
 1. **Calculate the total time Kim was asleep before waking up:**
    - Kim went to sleep at 10:00 PM.
@@ -142,7 +142,7 @@ math-5,math,0,"To determine how many minutes Kim slept on her bed that day, we n
    \]
 
 Answer: 845"
-math-6,math,1,"Let's solve this problem step by step:
+math-6,math,1,stop,"Let's solve this problem step by step:
 
 1) Initially, Gunther has 48 bananas.
 
@@ -160,7 +160,7 @@ math-6,math,1,"Let's solve this problem step by step:
    37 + 6 = 43 bananas now.
 
 So, after all these events, Gunther finds there are 43 bananas in the pile. Answer: 43"
-math-7,math,1,"Let's break down the problem step by step:
+math-7,math,1,stop,"Let's break down the problem step by step:
 
 1) First, we need to determine how many measuring cups Jonathan has.
    - He has two dozen cups, which is 2 * 12 = 24 cups.
@@ -183,7 +183,7 @@ Total number of utensils Jonathan has remaining:
 \(24 + 10 = 34\)
 
 Answer: 34"
-math-8,math,1,"To solve this problem, we need to determine how fast Martha's turtle crawls and then calculate how far it can travel in 40 seconds.
+math-8,math,1,stop,"To solve this problem, we need to determine how fast Martha's turtle crawls and then calculate how far it can travel in 40 seconds.
 
 Step 1: Determine the speed of the turtle.
 Since the cat is 5 times faster than the turtle, we can find the turtle's speed by dividing the cat's speed by 5.
@@ -204,7 +204,7 @@ Step 4: Perform the multiplication.
 Distance traveled by the turtle = 120 feet
 
 Answer: The turtle can crawl 120 feet in 40 seconds."
-math-9,math,1,"To solve this problem, let's break it down into steps:
+math-9,math,1,stop,"To solve this problem, let's break it down into steps:
 
 1. **Determine the total number of flights per day for both planes combined:**
    - Let \( F \) be the total number of flights made by the first plane.
@@ -223,7 +223,7 @@ math-9,math,1,"To solve this problem, let's break it down into steps:
 So, the first plane takes 11 flights to France in one day.
 
 Answer: 11"
-math-10,math,0,"Let's solve this problem step by step:
+math-10,math,0,stop,"Let's solve this problem step by step:
 
 1) Initially, Sally had:
    - 25 red balloons
@@ -245,12 +245,11 @@ math-10,math,0,"Let's solve this problem step by step:
    - Number of additional blue balloons = 75/100 * 8 = 6
 
 6) Now let's calculate the total number of balloons she carried into the school:
-   - Total balloons = Red + Green + Yellow + Blue
-   - Total balloons = 15 (red) + 7 (green) + 6 (yellow) + 8 (blue)
-   - Total balloons = 36
+   - Total balloons = Red + Green + Yellow + Blue (initially) + Additional blue
+   - Total balloons = 15 + 7 + 6 + 8 + 6 = 42
 
-Answer: 36"
-math-11,math,1,"Step 1: Determine the total number of fruits Kira initially bought.
+Answer: 42"
+math-11,math,1,stop,"Step 1: Determine the total number of fruits Kira initially bought.
 - Apples: 3
 - Bananas: 5
 - Oranges: 6
@@ -265,10 +264,9 @@ Fruits left = Total fruits - Fruits eaten by Lola
 Fruits left = 14 - 2 = 12
 
 Answer: 12"
-math-12,math,0,"Let's solve this problem step by step.
+math-12,math,0,stop,"Let's solve this problem step by step.
 
-### Step 1: Calculate the amount of water in each drink before spilling
-
+### Step 1: Calculate the initial amounts of water in each drink.
 - **Orange Drink**: 
   - Total volume = 10 liters
   - Fraction of water = \(\frac{2}{3}\)
@@ -279,27 +277,18 @@ math-12,math,0,"Let's solve this problem step by step.
   - Fraction of water = \(\frac{3}{5}\)
   - Amount of water = \(15 \times \frac{3}{5} = 9\) liters
 
-### Step 2: Adjust for the spilled orange drink
+### Step 2: Adjust for the spillage.
+- After pouring, you spill 1 liter from the orange drink.
+  - Remaining orange drink volume = \(10 - 1 = 9\) liters
+  - Remaining amount of water in the orange drink = \(6.67 - 1 = 5.67\) liters
 
-- The total volume after spilling 1 liter from the orange drink:
-  - New total volume = \(10 - 1 + 1 = 10\) liters (since we added back the 1 liter spilled)
+### Step 3: Combine the remaining drinks.
+- New total volume = \(9 + 15 = 24\) liters
+- New total amount of water = \(5.67 + 9 = 14.67\) liters
 
-### Step 3: Recalculate the amounts of water in both drinks considering the new volumes
-
-- **Orange Drink**:
-  - Volume = 10 liters
-  - Fraction of water = \(\frac{2}{3}\)
-  - Amount of water = \(10 \times \frac{2}{3} = \frac{20}{3} \approx 6.67\) liters
-
-- **Pineapple Drink**:
-  - Volume = 15 liters
-  - Fraction of water = \(\frac{3}{5}\)
-  - Amount of water = \(15 \times \frac{3}{5} = 9\) liters
-
-### Step 4: Sum up the total amount of water in the combined mixture
-
-- Total amount of water = Water from Orange Drink + Water from Pineapple"
-math-13,math,1,"Let's break down the problem step by step:
+### Final Answer:
+Answer: 14.67 liters"
+math-13,math,1,stop,"Let's break down the problem step by step:
 
 1) Jill and her friends watch 4 movies every Saturday.
 2) On Sunday, they watch half the number of movies as on Saturday. So, on Sunday, they watch \( \frac{4}{2} = 2 \) movies.
@@ -309,7 +298,7 @@ math-13,math,1,"Let's break down the problem step by step:
 4) They watch movies every weekend for 4 weeks. Therefore, over 4 weeks, they will watch \( 6 \times 4 = 24 \) movies.
 
 Answer: 24"
-math-14,math,1,"To determine how many questions Mark left incomplete, we need to calculate the number of questions he could have answered correctly for each test based on his given rates and time constraints.
+math-14,math,1,stop,"To determine how many questions Mark left incomplete, we need to calculate the number of questions he could have answered correctly for each test based on his given rates and time constraints.
 
 **First Test:**
 - Number of questions: 75
@@ -338,19 +327,20 @@ Now, let's add up all the incomplete questions from both tests:
 \[ \text{Total Incomplete Questions} = 35 + 70 = 105 \]
 
 Therefore, the total number of questions Mark left incomplete is **105**."
-math-15,math,1,"Step 1: Determine how many friends Amy has.
-Lily made 50 friends, and Amy made 20 more friends than Lily.
-Amy's friends = Lily's friends + 20
-Amy's friends = 50 + 20
-Amy's friends = 70
+math-15,math,1,stop,"Step 1: Determine how many friends Amy has.
+Amy makes 20 more friends than Lily. Since Lily has 50 friends, we add 20 to find out how many friends Amy has:
+\[ \text{Amy's friends} = \text{Lily's friends} + 20 \]
+\[ \text{Amy's friends} = 50 + 20 \]
+\[ \text{Amy's friends} = 70 \]
 
-Step 2: Calculate the total number of friends both Lily and Amy have together.
-Total friends = Lily's friends + Amy's friends
-Total friends = 50 + 70
-Total friends = 120
+Step 2: Calculate the total number of friends both Amy and Lily have together.
+To find this, we simply add Amy's friends to Lily's friends:
+\[ \text{Total friends} = \text{Amy's friends} + \text{Lily's friends} \]
+\[ \text{Total friends} = 70 + 50 \]
+\[ \text{Total friends} = 120 \]
 
 Answer: 120"
-math-16,math,0,"To determine how many oranges are good, we need to follow these steps:
+math-16,math,0,stop,"To determine how many oranges are good, we need to follow these steps:
 
 1. **Calculate the number of unripe oranges:**
    - We know that 20% of the oranges are unripe.
@@ -379,7 +369,7 @@ math-16,math,0,"To determine how many oranges are good, we need to follow these 
    \]
 
 Answer: 18"
-math-17,math,1,"To solve this problem, we need to calculate the total cost of 6 erasers and 8 pencils.
+math-17,math,1,stop,"To solve this problem, we need to calculate the total cost of 6 erasers and 8 pencils.
 
 Step 1: Calculate the cost of 6 erasers.
 Cost of one eraser = $2
@@ -403,7 +393,7 @@ Total cost = Total cost for erasers + Total cost for pencils
 = $36
 
 Answer: The total cost is $36."
-math-18,math,1,"To determine how many face masks Tyrion uses every 2 days, we need to follow these steps:
+math-18,math,1,stop,"To determine how many face masks Tyrion uses every 2 days, we need to follow these steps:
 
 1. **Calculate the number of face mask changes per day:**
    - Tyrion changes his face mask twice each time he goes out.
@@ -423,7 +413,7 @@ math-18,math,1,"To determine how many face masks Tyrion uses every 2 days, we ne
 So, Tyrion uses 12 face masks every 2 days. 
 
 Answer: 12"
-math-19,math,1,"Let's break down the problem step by step:
+math-19,math,1,stop,"Let's break down the problem step by step:
 
 1. **Snowflake Stamps**: Max bought 16 snowflake stamps.
 
@@ -451,8 +441,10 @@ math-19,math,1,"Let's break down the problem step by step:
      16 + 19 + 10 = 45
      \]
 
-Therefore, the total number of stamps Max bought is 45. Answer: 45"
-math-20,math,1,"Let's break down the problem step by step:
+Therefore, the total number of stamps Max bought is 45.
+
+Answer: 45"
+math-20,math,1,stop,"Let's break down the problem step by step:
 
 1. Initially, Katelyn sees 50 fairies.
 
@@ -469,7 +461,7 @@ math-20,math,1,"Let's break down the problem step by step:
 So, after all these events, there are 45 fairies remaining. 
 
 Answer: 45"
-math-21,math,1,"To solve this problem, we need to convert all measurements to the same unit and then perform the calculation.
+math-21,math,1,stop,"To solve this problem, we need to convert all measurements to the same unit and then perform the calculation.
 
 1. **Convert the length of the wire from feet to inches**:
    - There are 12 inches in a foot.
@@ -481,7 +473,7 @@ math-21,math,1,"To solve this problem, we need to convert all measurements to th
    - \( 48 \text{ inches} ÷ 6 \text{ inches/piece} = 8 \text{ pieces} \).
 
 Answer: 8"
-math-22,math,0,"To determine how many students were in the school auditorium, we need to follow these steps:
+math-22,math,0,stop,"To determine how many students were in the school auditorium, we need to follow these steps:
 
 1. Calculate the total number of seats in the auditorium.
 2. Determine how many seats were occupied by the administrators.
@@ -519,7 +511,7 @@ Let's go through each step in detail:
    Subtract the number of seats occupied by the parents from the remaining seats.
    \[
    \text{Seats occupied by students} = 5"
-math-23,math,0,"Let's break down the problem step by step:
+math-23,math,0,stop,"Let's break down the problem step by step:
 
 1. **Total cost of food per day**: Ellen spends $11.
 
@@ -548,7 +540,7 @@ math-23,math,0,"Let's break down the problem step by step:
 So, Ellen pays $2 for one carrot every day.
 
 Answer: 2"
-math-24,math,0,"Let's denote the number of points Erin had before scoring as \( E \) and the number of points Sara had as \( S \).
+math-24,math,0,stop,"Let's denote the number of points Erin had before scoring as \( E \) and the number of points Sara had as \( S \).
 
 From the problem statement:
 - Erin scored 14 points.
@@ -569,7 +561,7 @@ Now, solve for \( E \):
 So, Erin had 52 points before she scored 14 points. 
 
 Answer: 52"
-math-25,math,1,"Let's break down the costs step by step:
+math-25,math,1,stop,"Let's break down the costs step by step:
 
 1. **Aquarium**: 
    - Scarlett found it for $10.00.
@@ -607,7 +599,7 @@ Now, let's add up all these expenses to find the total amount spent:
 \]
 
 Answer: Scarlett spent $33.00 in total."
-math-26,math,0,"Let's break down the problem step by step:
+math-26,math,0,stop,"Let's break down the problem step by step:
 
 1) First, calculate the total number of apartments:
    - The first two complexes have 200 apartments each.
@@ -639,7 +631,7 @@ math-26,math,0,"Let's break down the problem step by step:
                      = $10.80
 
 Answer: $10.80"
-math-27,math,0,"To solve this problem, we need to calculate the probabilities of Jerry rolling a number greater than 3 and rolling two even numbers in a row.
+math-27,math,0,stop,"To solve this problem, we need to calculate the probabilities of Jerry rolling a number greater than 3 and rolling two even numbers in a row.
 
 1. **Probability of rolling a number greater than 3:**
    - The possible outcomes for a number greater than 3 on a six-sided die are 4, 5, and 6.
@@ -662,7 +654,7 @@ math-27,math,0,"To solve this problem, we need to calculate the probabilities of
 
 3. **Difference between the two probabilities:**
    - We subtract the probability of rolling a number greater than 3 from the probability of rolling two even numbers in"
-math-28,math,1,"To solve this problem, let's break it down into steps:
+math-28,math,1,stop,"To solve this problem, let's break it down into steps:
 
 1. **Calculate the total number of bagels Russell gets without any discount:**
    - Each pack contains 9 bagels.
@@ -695,7 +687,7 @@ math-28,math,1,"To solve this problem, let's break it down into steps:
    \]
 
 Final answer: Each single bagel will cost $\boxed{1.00}$ after the discount."
-math-29,math,1,"Let's denote the length of the shorter piece as \( x \) feet.
+math-29,math,1,stop,"Let's denote the length of the shorter piece as \( x \) feet.
 
 According to the problem:
 - Ian cuts the board into two pieces.
@@ -716,7 +708,7 @@ The shorter piece is 8 feet long. Since the longer piece is 4 times longer than 
 \[ \text{Length of the longer piece} = 32 \]
 
 Answer: 32"
-math-30,math,1,"To determine how many days 720 grams of cat food will last for Imma's three cats, we need to follow these steps:
+math-30,math,1,stop,"To determine how many days 720 grams of cat food will last for Imma's three cats, we need to follow these steps:
 
 1. Calculate the total amount of cat food consumed per day.
    - Each cat eats 60 grams of cat food twice a day.
@@ -731,7 +723,7 @@ So, the number of days that 720 grams of cat food will last is:
 \[ \frac{720 \text{ grams}}{360 \text{ grams/day}} = 2 \text{ days} \]
 
 Answer: 2"
-math-31,math,1,"Let's solve this problem step by step:
+math-31,math,1,stop,"Let's solve this problem step by step:
 
 1) Nissa initially has 60 elves.
 
@@ -747,7 +739,7 @@ math-31,math,1,"Let's solve this problem step by step:
 Final number of elves left is 30.
 
 Answer: 30"
-math-32,math,1,"Step 1: Calculate the total cost of type A candies.
+math-32,math,1,stop,"Step 1: Calculate the total cost of type A candies.
 Type A candies cost $0.5 each, and Adam bought 7 of them.
 Total cost for type A = 7 * $0.5 = $3.5
 
@@ -765,7 +757,7 @@ Change received = Amount paid - Total amount spent
 Change received = $15 - $11 = $4
 
 Answer: $4"
-math-33,math,1,"To determine how far Elvis is from his house after traveling west and then east, we need to calculate the distance traveled in each direction and then sum them up.
+math-33,math,1,stop,"To determine how far Elvis is from his house after traveling west and then east, we need to calculate the distance traveled in each direction and then sum them up.
 
 Step 1: Calculate the distance traveled west.
 - Time spent traveling west = 5 hours
@@ -792,7 +784,7 @@ Net Displacement = Distance West - Distance East
 The negative sign indicates that Elvis is 54 miles away from his starting point (house) but on the opposite side.
 
 Answer: 54 miles"
-math-34,math,0,"To determine how much money Cameron saves, we need to calculate the cost of his stay under both options and then find the difference.
+math-34,math,0,stop,"To determine how much money Cameron saves, we need to calculate the cost of his stay under both options and then find the difference.
 
 **Option 1 (12-hour stay):**
 - Cost = 1000 pesos
@@ -813,45 +805,41 @@ The savings can be calculated as follows:
 - Savings = 1840 - 1000 = 840 pesos
 
 Answer: 840"
-math-35,math,0,"Step 1: Calculate the base cost of installing the initial items.
-- Mirrors: 6 * $129 = $774
-- Chandeliers: 2 * $129 = $258
-- Pictures: 20 * $129 = $2580
+math-35,math,0,stop,"Step 1: Calculate the base cost of the installation.
+- The base cost is $129.00.
 
-Total base cost = $774 + $258 + $2580 = $3612
+Step 2: Determine how many additional items Angela needs to be installed.
+- She needs to hang 6 mirrors, 2 chandeliers, and 20 pictures.
+- Total number of items = 6 + 2 + 20 = 28 items.
 
-Step 2: Calculate the cost for additional items.
-Angela needs to hang 4 mirrors, 2 shelves, 1 chandelier, and 10 pictures.
+Step 3: Calculate the cost for the additional items.
+- Each additional item costs $15.00.
+- Cost for 28 items = 28 * $15.00 = $420.00.
 
-Cost for additional items = (4 + 2 + 1 + 10) * $15 = 17 * $15 = $255
+Step 4: Add the base cost to the cost of the additional items.
+- Total cost = Base cost + Additional cost
+- Total cost = $129.00 + $420.00 = $549.00.
 
-Step 3: Add the costs from steps 1 and 2 to get the total cost.
-Total cost = Base cost + Additional cost
-           = $3612 + $255
-           = $3867
-
-Answer: $3867"
-math-36,math,1,"To solve this problem, we need to follow these steps:
+Answer: $549.00"
+math-36,math,1,stop,"To solve this problem, we need to follow these steps:
 
 1. Calculate the price of Juan's house.
 2. Add the prices of both houses together.
 
 Step 1: Calculate the price of Juan's house.
-Herb's house cost $76,000. Since Juan's house is 30% less expensive than Herb's, we first find out what 30% of $76,000 is and subtract it from $76,000.
+Herb's house cost $76,000. Since Juan's house is 30% less expensive, it means Juan's house costs 70% of what Herb's house costs (because 100% - 30% = 70%).
 
-30% of $76,000 = 0.30 * $76,000 = $22,800
-
-Now, subtract this amount from the original price:
-$76,000 - $22,800 = $53,200
-
-So, Juan's house costs $53,200.
+Price of Juan's house = 70% of $76,000
+= 0.7 * $76,000
+= $53,200
 
 Step 2: Add the prices of both houses together.
-Now we add the price of Herb's house ($76,000) and Juan's house ($53,200):
-$76,000 + $53,200 = $129,200
+Total value of both houses combined = Price of Herb's house + Price of Juan's house
+= $76,000 + $53,200
+= $129,200
 
-Answer: The total value of the two houses combined is $129,200."
-math-37,math,1,"Let's break down the problem step by step:
+Answer: The total value of both houses combined is $129,200."
+math-37,math,1,stop,"Let's break down the problem step by step:
 
 1. **Total number of movies**: Mike has 600 movies.
 
@@ -885,7 +873,7 @@ math-37,math,1,"Let's break down the problem step by step:
    - Total cost = $2400 + $800 + $1200 = $4400
 
 "
-math-38,math,1,"To determine how much crepe paper James needs to buy, we first need to calculate the perimeter of the rectangular backyard fence.
+math-38,math,1,stop,"To determine how much crepe paper James needs to buy, we first need to calculate the perimeter of the rectangular backyard fence.
 
 The formula for the perimeter \( P \) of a rectangle is:
 \[ P = 2 \times (length + width) \]
@@ -902,7 +890,7 @@ Substitute these values into the formula:
 Therefore, James needs to buy 70 feet of crepe paper. 
 
 Answer: 70"
-math-39,math,1,"Step 1: Calculate the total cost of the cars before taxes.
+math-39,math,1,stop,"Step 1: Calculate the total cost of the cars before taxes.
 Each car costs $20,000, so for 12 cars:
 \[ \text{Total cost of cars} = 12 \times \$20,000 = \$240,000 \]
 
@@ -919,240 +907,240 @@ Step 4: Calculate the total cost including all expenses.
 \[ \text{Total cost} = \$240,000 + \$24,000 + \$12,000 = \$276,000 \]
 
 Answer: $276,000"
-knowledge-0,knowledge,0,D
-knowledge-1,knowledge,0,A
-knowledge-2,knowledge,1,C
-knowledge-3,knowledge,0,D
-knowledge-4,knowledge,1,A
-knowledge-5,knowledge,0,A
-knowledge-6,knowledge,0,A
-knowledge-7,knowledge,1,C
-knowledge-8,knowledge,0,B
-knowledge-9,knowledge,0,D
-knowledge-10,knowledge,0,B
-knowledge-11,knowledge,0,B
-knowledge-12,knowledge,1,D
-knowledge-13,knowledge,0,A
-knowledge-14,knowledge,1,B
-knowledge-15,knowledge,1,A
-knowledge-16,knowledge,0,B
-knowledge-17,knowledge,1,C
-knowledge-18,knowledge,0,A
-knowledge-19,knowledge,1,C
-knowledge-20,knowledge,0,D
-knowledge-21,knowledge,1,B
-knowledge-22,knowledge,1,A
-knowledge-23,knowledge,0,B
-knowledge-24,knowledge,1,D
-knowledge-25,knowledge,1,A
-knowledge-26,knowledge,1,B
-knowledge-27,knowledge,1,A
-knowledge-28,knowledge,1,A
-knowledge-29,knowledge,1,C
-format-0,format,1,"```json
+knowledge-0,knowledge,0,stop,D
+knowledge-1,knowledge,0,stop,A
+knowledge-2,knowledge,1,stop,C
+knowledge-3,knowledge,0,stop,D
+knowledge-4,knowledge,1,stop,A
+knowledge-5,knowledge,0,stop,A
+knowledge-6,knowledge,0,stop,A
+knowledge-7,knowledge,1,stop,C
+knowledge-8,knowledge,0,stop,B
+knowledge-9,knowledge,0,stop,D
+knowledge-10,knowledge,0,stop,B
+knowledge-11,knowledge,0,stop,B
+knowledge-12,knowledge,1,stop,D
+knowledge-13,knowledge,0,stop,A
+knowledge-14,knowledge,1,stop,B
+knowledge-15,knowledge,1,stop,A
+knowledge-16,knowledge,0,stop,B
+knowledge-17,knowledge,1,stop,C
+knowledge-18,knowledge,0,stop,A
+knowledge-19,knowledge,1,stop,C
+knowledge-20,knowledge,0,stop,D
+knowledge-21,knowledge,1,stop,B
+knowledge-22,knowledge,1,stop,A
+knowledge-23,knowledge,0,stop,B
+knowledge-24,knowledge,1,stop,D
+knowledge-25,knowledge,1,stop,A
+knowledge-26,knowledge,1,stop,B
+knowledge-27,knowledge,1,stop,A
+knowledge-28,knowledge,1,stop,A
+knowledge-29,knowledge,1,stop,C
+format-0,format,1,stop,"```json
 {
   ""name"": ""Neha"",
   ""age"": 28,
   ""city"": ""Pune""
 }
 ```"
-format-1,format,1,"```json
+format-1,format,1,stop,"```json
 {
   ""name"": ""Karan"",
   ""age"": 35,
   ""city"": ""Jaipur""
 }
 ```"
-format-2,format,1,"```json
+format-2,format,1,stop,"```json
 {
   ""name"": ""Neha"",
   ""age"": 55,
   ""city"": ""Delhi""
 }
 ```"
-format-3,format,1,"```json
+format-3,format,1,stop,"```json
 {
   ""name"": ""Priya"",
   ""age"": 22,
   ""city"": ""Delhi""
 }
 ```"
-format-4,format,1,"```json
+format-4,format,1,stop,"```json
 {
   ""name"": ""Karan"",
   ""age"": 53,
   ""city"": ""Kochi""
 }
 ```"
-format-5,format,1,"```json
+format-5,format,1,stop,"```json
 {
   ""name"": ""Divya"",
   ""age"": 33,
   ""city"": ""Surat""
 }
 ```"
-format-6,format,1,"```json
+format-6,format,1,stop,"```json
 {
   ""name"": ""Karan"",
   ""age"": 49,
   ""city"": ""Kochi""
 }
 ```"
-format-7,format,1,"```json
+format-7,format,1,stop,"```json
 {
   ""name"": ""Kavya"",
   ""age"": 21,
   ""city"": ""Jaipur""
 }
 ```"
-format-8,format,1,"```json
+format-8,format,1,stop,"```json
 {
   ""name"": ""Vikram"",
   ""age"": 38,
   ""city"": ""Jaipur""
 }
 ```"
-format-9,format,1,"```json
+format-9,format,1,stop,"```json
 {
   ""name"": ""Kavya"",
   ""age"": 42,
   ""city"": ""Delhi""
 }
 ```"
-format-10,format,1,"```json
+format-10,format,1,stop,"```json
 {
   ""name"": ""Sneha"",
   ""age"": 27,
   ""city"": ""Hisar""
 }
 ```"
-format-11,format,1,"```json
+format-11,format,1,stop,"```json
 {
   ""name"": ""Rohan"",
   ""age"": 37,
   ""city"": ""Pune""
 }
 ```"
-format-12,format,1,"```json
+format-12,format,1,stop,"```json
 {
   ""name"": ""Divya"",
   ""age"": 28,
   ""city"": ""Lucknow""
 }
 ```"
-format-13,format,1,"```json
+format-13,format,1,stop,"```json
 {
   ""name"": ""Divya"",
   ""age"": 39,
   ""city"": ""Kochi""
 }
 ```"
-format-14,format,1,"```json
+format-14,format,1,stop,"```json
 {
   ""name"": ""Rohan"",
   ""age"": 33,
   ""city"": ""Delhi""
 }
 ```"
-format-15,format,1,"```json
+format-15,format,1,stop,"```json
 {
   ""name"": ""Neha"",
   ""age"": 35,
   ""city"": ""Kolkata""
 }
 ```"
-format-16,format,1,"```json
+format-16,format,1,stop,"```json
 {
   ""name"": ""Sahil"",
   ""age"": 35,
   ""city"": ""Delhi""
 }
 ```"
-format-17,format,1,"```json
+format-17,format,1,stop,"```json
 {
   ""name"": ""Meera"",
   ""age"": 50,
   ""city"": ""Hisar""
 }
 ```"
-format-18,format,1,"```json
+format-18,format,1,stop,"```json
 {
   ""name"": ""Vikram"",
   ""age"": 43,
   ""city"": ""Chennai""
 }
 ```"
-format-19,format,1,"```json
+format-19,format,1,stop,"```json
 {
   ""name"": ""Amit"",
   ""age"": 25,
   ""city"": ""Kochi""
 }
 ```"
-format-20,format,1,"```json
+format-20,format,1,stop,"```json
 {
   ""name"": ""Divya"",
   ""age"": 36,
   ""city"": ""Jaipur""
 }
 ```"
-format-21,format,1,"```json
+format-21,format,1,stop,"```json
 {
   ""name"": ""Sneha"",
   ""age"": 38,
   ""city"": ""Surat""
 }
 ```"
-format-22,format,1,"```json
+format-22,format,1,stop,"```json
 {
   ""name"": ""Neha"",
   ""age"": 41,
   ""city"": ""Pune""
 }
 ```"
-format-23,format,1,"```json
+format-23,format,1,stop,"```json
 {
   ""name"": ""Sahil"",
   ""age"": 23,
   ""city"": ""Hisar""
 }
 ```"
-format-24,format,1,"```json
+format-24,format,1,stop,"```json
 {
   ""name"": ""Meera"",
   ""age"": 25,
   ""city"": ""Chennai""
 }
 ```"
-format-25,format,1,"```json
+format-25,format,1,stop,"```json
 {
   ""name"": ""Karan"",
   ""age"": 52,
   ""city"": ""Lucknow""
 }
 ```"
-format-26,format,1,"```json
+format-26,format,1,stop,"```json
 {
   ""name"": ""Anita"",
   ""age"": 37,
   ""city"": ""Jaipur""
 }
 ```"
-format-27,format,1,"```json
+format-27,format,1,stop,"```json
 {
   ""name"": ""Amit"",
   ""age"": 56,
   ""city"": ""Surat""
 }
 ```"
-format-28,format,1,"```json
+format-28,format,1,stop,"```json
 {
   ""name"": ""Amit"",
   ""age"": 58,
   ""city"": ""Lucknow""
 }
 ```"
-format-29,format,1,"```json
+format-29,format,1,stop,"```json
 {
   ""name"": ""Vikram"",
   ""age"": 35,

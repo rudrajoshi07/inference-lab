@@ -13,7 +13,7 @@ for i, r in enumerate(rows):
         model=model, temperature=0, max_tokens=384,
         messages=[{"role": "user", "content": r["prompt"]}])
     out = resp.choices[0].message.content
-    results.append((r["id"], r["category"], score(r, out), out))
+    results.append((r["id"], r["category"], score(r, out),"stop", out))
     if (i + 1) % 20 == 0:
         print(f"{i + 1}/{len(rows)} done")
 
@@ -24,7 +24,7 @@ with open(path, "w", newline="", encoding="utf-8") as f:
     w.writerows(results)
 
 tot, cnt = defaultdict(int), defaultdict(int)
-for _, cat, s, _ in results:
+for _, cat, s, _, _ in results:
     tot[cat] += s;
     cnt[cat] += 1
 for cat in cnt:
