@@ -245,10 +245,11 @@ math-10,math,0,stop,"Let's solve this problem step by step:
    - Number of additional blue balloons = 75/100 * 8 = 6
 
 6) Now let's calculate the total number of balloons she carried into the school:
-   - Total balloons = Red + Green + Yellow + Blue (initially) + Additional blue
-   - Total balloons = 15 + 7 + 6 + 8 + 6 = 42
+   - Total balloons = Red + Green + Yellow + Blue
+   - Total balloons = 15 (red) + 7 (green) + 6 (yellow) + 8 (blue)
+   - Total balloons = 36
 
-Answer: 42"
+Answer: 36"
 math-11,math,1,stop,"Step 1: Determine the total number of fruits Kira initially bought.
 - Apples: 3
 - Bananas: 5
@@ -266,7 +267,8 @@ Fruits left = 14 - 2 = 12
 Answer: 12"
 math-12,math,0,stop,"Let's solve this problem step by step.
 
-### Step 1: Calculate the initial amounts of water in each drink.
+### Step 1: Calculate the amount of water in each drink before spilling
+
 - **Orange Drink**: 
   - Total volume = 10 liters
   - Fraction of water = \(\frac{2}{3}\)
@@ -277,17 +279,26 @@ math-12,math,0,stop,"Let's solve this problem step by step.
   - Fraction of water = \(\frac{3}{5}\)
   - Amount of water = \(15 \times \frac{3}{5} = 9\) liters
 
-### Step 2: Adjust for the spillage.
-- After pouring, you spill 1 liter from the orange drink.
-  - Remaining orange drink volume = \(10 - 1 = 9\) liters
-  - Remaining amount of water in the orange drink = \(6.67 - 1 = 5.67\) liters
+### Step 2: Adjust for the spilled orange drink
 
-### Step 3: Combine the remaining drinks.
-- New total volume = \(9 + 15 = 24\) liters
-- New total amount of water = \(5.67 + 9 = 14.67\) liters
+- The total volume after spilling 1 liter from the orange drink:
+  - New total volume = \(10 - 1 + 1 = 10\) liters (since we added back the 1 liter spilled)
 
-### Final Answer:
-Answer: 14.67 liters"
+### Step 3: Recalculate the amounts of water in both drinks considering the new volumes
+
+- **Orange Drink**:
+  - Volume = 10 liters
+  - Fraction of water = \(\frac{2}{3}\)
+  - Amount of water = \(10 \times \frac{2}{3} = \frac{20}{3} \approx 6.67\) liters
+
+- **Pineapple Drink**:
+  - Volume = 15 liters
+  - Fraction of water = \(\frac{3}{5}\)
+  - Amount of water = \(15 \times \frac{3}{5} = 9\) liters
+
+### Step 4: Sum up the total amount of water in the combined mixture
+
+- Total amount of water = Water from Orange Drink + Water from Pineapple"
 math-13,math,1,stop,"Let's break down the problem step by step:
 
 1) Jill and her friends watch 4 movies every Saturday.
@@ -328,16 +339,15 @@ Now, let's add up all the incomplete questions from both tests:
 
 Therefore, the total number of questions Mark left incomplete is **105**."
 math-15,math,1,stop,"Step 1: Determine how many friends Amy has.
-Amy makes 20 more friends than Lily. Since Lily has 50 friends, we add 20 to find out how many friends Amy has:
-\[ \text{Amy's friends} = \text{Lily's friends} + 20 \]
-\[ \text{Amy's friends} = 50 + 20 \]
-\[ \text{Amy's friends} = 70 \]
+Lily made 50 friends, and Amy made 20 more friends than Lily.
+Amy's friends = Lily's friends + 20
+Amy's friends = 50 + 20
+Amy's friends = 70
 
-Step 2: Calculate the total number of friends both Amy and Lily have together.
-To find this, we simply add Amy's friends to Lily's friends:
-\[ \text{Total friends} = \text{Amy's friends} + \text{Lily's friends} \]
-\[ \text{Total friends} = 70 + 50 \]
-\[ \text{Total friends} = 120 \]
+Step 2: Calculate the total number of friends both Lily and Amy have together.
+Total friends = Lily's friends + Amy's friends
+Total friends = 50 + 70
+Total friends = 120
 
 Answer: 120"
 math-16,math,0,stop,"To determine how many oranges are good, we need to follow these steps:
@@ -441,9 +451,7 @@ math-19,math,1,stop,"Let's break down the problem step by step:
      16 + 19 + 10 = 45
      \]
 
-Therefore, the total number of stamps Max bought is 45.
-
-Answer: 45"
+Therefore, the total number of stamps Max bought is 45. Answer: 45"
 math-20,math,1,stop,"Let's break down the problem step by step:
 
 1. Initially, Katelyn sees 50 fairies.
@@ -805,40 +813,44 @@ The savings can be calculated as follows:
 - Savings = 1840 - 1000 = 840 pesos
 
 Answer: 840"
-math-35,math,0,stop,"Step 1: Calculate the base cost of the installation.
-- The base cost is $129.00.
+math-35,math,0,stop,"Step 1: Calculate the base cost of installing the initial items.
+- Mirrors: 6 * $129 = $774
+- Chandeliers: 2 * $129 = $258
+- Pictures: 20 * $129 = $2580
 
-Step 2: Determine how many additional items Angela needs to be installed.
-- She needs to hang 6 mirrors, 2 chandeliers, and 20 pictures.
-- Total number of items = 6 + 2 + 20 = 28 items.
+Total base cost = $774 + $258 + $2580 = $3612
 
-Step 3: Calculate the cost for the additional items.
-- Each additional item costs $15.00.
-- Cost for 28 items = 28 * $15.00 = $420.00.
+Step 2: Calculate the cost for additional items.
+Angela needs to hang 4 mirrors, 2 shelves, 1 chandelier, and 10 pictures.
 
-Step 4: Add the base cost to the cost of the additional items.
-- Total cost = Base cost + Additional cost
-- Total cost = $129.00 + $420.00 = $549.00.
+Cost for additional items = (4 + 2 + 1 + 10) * $15 = 17 * $15 = $255
 
-Answer: $549.00"
+Step 3: Add the costs from steps 1 and 2 to get the total cost.
+Total cost = Base cost + Additional cost
+           = $3612 + $255
+           = $3867
+
+Answer: $3867"
 math-36,math,1,stop,"To solve this problem, we need to follow these steps:
 
 1. Calculate the price of Juan's house.
 2. Add the prices of both houses together.
 
 Step 1: Calculate the price of Juan's house.
-Herb's house cost $76,000. Since Juan's house is 30% less expensive, it means Juan's house costs 70% of what Herb's house costs (because 100% - 30% = 70%).
+Herb's house cost $76,000. Since Juan's house is 30% less expensive than Herb's, we first find out what 30% of $76,000 is and subtract it from $76,000.
 
-Price of Juan's house = 70% of $76,000
-= 0.7 * $76,000
-= $53,200
+30% of $76,000 = 0.30 * $76,000 = $22,800
+
+Now, subtract this amount from the original price:
+$76,000 - $22,800 = $53,200
+
+So, Juan's house costs $53,200.
 
 Step 2: Add the prices of both houses together.
-Total value of both houses combined = Price of Herb's house + Price of Juan's house
-= $76,000 + $53,200
-= $129,200
+Now we add the price of Herb's house ($76,000) and Juan's house ($53,200):
+$76,000 + $53,200 = $129,200
 
-Answer: The total value of both houses combined is $129,200."
+Answer: The total value of the two houses combined is $129,200."
 math-37,math,1,stop,"Let's break down the problem step by step:
 
 1. **Total number of movies**: Mike has 600 movies.
