@@ -1,0 +1,12 @@
+(EngineCore pid=590) INFO 10-06 05:10:26 [core.py:129] Initializing a V1 LLM engine (v0.31.0) with config: model='Qwen/Qwen2.5-1.5B-Instruct-AWQ', speculative_config=None, tokenizer='Qwen/Qwen2.5-1.5B-Instruct-AWQ', skip_tokenizer_init=Fals
+(EngineCore pid=590) INFO 10-06 05:10:27 [parallel_state.py:1825] world_size=1 rank=0 local_rank=0 distributed_init_method=file:///tmp/vllm_dist_5be2fa1da3ac46a7bfc58dabe5dc3599 backend=nccl
+(EngineCore pid=590) INFO 10-06 05:10:33 [cuda.py:526] Using TRITON_ATTN attention backend out of potential backends: ['TRITON_ATTN', 'FLEX_ATTENTION'].
+(EngineCore pid=590) INFO 10-06 05:10:45 [weight_utils.py:523] Time spent downloading weights for Qwen/Qwen2.5-1.5B-Instruct-AWQ: 11.028750 seconds
+(EngineCore pid=590) INFO 10-06 05:10:45 [weight_utils.py:1063] Filesystem type for checkpoints: OVERLAY. Checkpoint size: 1.50 GiB. Available RAM: 4.75 GiB.
+(EngineCore pid=590) INFO 10-06 05:10:45 [default_loader.py:484] Loading weights took 0.58 seconds
+(EngineCore pid=590) INFO 10-06 05:10:48 [model_runner.py:407] Model loading took 1.1 GiB memory and 21.130178 seconds
+(EngineCore pid=590) INFO 10-06 05:10:49 [utils.py:343] Using LBNHC KV cache layout.
+(EngineCore pid=590) INFO 10-06 05:10:54 [gpu_worker.py:692] Available KV cache memory: 10.92 GiB
+(EngineCore pid=590) INFO 10-06 05:10:54 [kv_cache_utils.py:2464] GPU KV cache size: 409,024 tokens, Maximum concurrency for 2,048 tokens per request: 199.72x
+(EngineCore pid=590) INFO 10-06 05:10:54 [gpu_worker.py:955] Free memory on device (14.46/14.56 GiB) on startup. Desired GPU memory utilization is (0.85, 12.38 GiB). Actual usage is 1.33 GiB for consumed memory (weights + non-torch), 0.12 G
+(EngineCore pid=590) INFO 10-06 05:10:54 [core.py:380] init engine (profile, create kv cache, warmup model) took 5.72 s

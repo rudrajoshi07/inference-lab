@@ -1,9 +1,11 @@
 import re, json
+
 NUM = r"-?\d[\d,]*(?:\.\d+)?"
+
 def score(row, output):
-    """Return 1 if the model output is correct, else 0."""
     cat, ref = row["category"], row["reference"]
     output = output or ""
+
     if cat == "math":
         idx = output.rfind("Answer:")
         if idx != -1:
