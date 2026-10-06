@@ -1,0 +1,1201 @@
+id,category,correct,finish,output
+math-0,math,1,stop,"To solve this problem, we need to follow these steps:
+
+1. **Determine the current ages of Darrell and Allen**:
+   - Let \( D \) be Darrell's current age.
+   - Let \( A \) be Allen's current age.
+   
+   Given that Darrell and Allen's ages are in the ratio of 7:11, we can write:
+   \[
+   \frac{D}{A} = \frac{7}{11}
+   \]
+   This means:
+   \[
+   D = \frac{7}{11} A
+   \]
+
+2. **Set up the equation for their combined ages**:
+   - Their total age now is 162.
+   \[
+   D + A = 162
+   \]
+
+3. **Substitute the expression for \( D \) into the total age equation**:
+   \[
+   \frac{7}{11} A + A = 162
+   \]
+
+4. **Combine like terms**:
+   \[
+   \left(\frac{7}{11} + 1\right) A = 162
+   \]
+   Convert 1 to a fraction with the same denominator:
+   \[
+   \left(\frac{7}{11} + \frac{11}{11}\right) A = 162
+   \]
+   Simplify the fractions:
+   \[
+   \frac{18}{11} A = 162
+   \]
+
+5. **Solve for \( A \)**:
+   Multiply both sides by 11/18:
+   \[
+   A = 162 \times \frac{11}{18}
+   \]
+   Simplify the multiplication:
+   \[
+   A = 9 \times 11
+   \]
+   \[
+   A = 99
+   \]
+
+So, Allen's current age is 99.
+
+6. **Calculate Allen's age 10 years from now**:
+   \[
+   A_{\text{future}} = A + 10
+   \]
+   \[
+   A_{\text{future}} = 99 + 10
+   \]
+   \[
+   A_{\text{future}} = 109
+   \]
+
+Answer: 109"
+math-1,math,0,stop,"To solve this problem, we need to break it down into steps:
+
+1. **Determine how many small stickers Lorraine has initially**: 
+   - Lorraine starts with 30 small stickers.
+
+2. **Calculate how many small stickers Lorraine trades for large buttons**:
+   - She trades 90% of her small stickers.
+   - \(90\%\) of 30 small stickers = \(0.9 \times 30 = 27\) small stickers traded for large buttons.
+
+3. **Determine how many large stickers Lorraine has initially**:
+   - Lorraine starts with 40 large stickers.
+
+4. **Calculate how many large stickers Lorraine trades for large buttons**:
+   - She trades 50% of her large stickers.
+   - \(50\%\) of 40 large stickers = \(0.5 \times 40 = 20\) large stickers traded for large buttons.
+
+5. **Calculate how many large stickers Lorraine has left after trading for large buttons**:
+   - After trading 20 large stickers for large buttons, she will have \(40 - 20 = 20\) large stickers left.
+
+6. **Determine how many small stickers Lorraine has left after trading for large buttons**:
+   - Since all 27 small stickers were traded for large buttons, she will have \(30 - 27 = 3\) small stickers left.
+
+7. **Calculate how many large stickers Lorraine can trade for small buttons**:
+   - The remaining large stickers (after trading for large buttons) are \(20 - 20 = 0\).
+
+8. **Calculate how many small stickers Lorraine can trade for small buttons**:
+   - Since there are no large stickers left, she cannot trade any more stickers for small buttons.
+
+Therefore, Lorraine ends up with 3 small stickers and 0 large stickers.
+
+Answer: 3"
+math-2,math,1,stop,"To solve this problem, we need to follow these steps:
+
+1. Determine the number of letters in Indras' name.
+2. Calculate how many letters would be in her sister's name based on the given condition.
+
+Step 1: Number of letters in Indras' name
+Indras has 6 letters in her name.
+
+Step 2: Calculate the number of letters in her sister's name
+Her sister's name has 4 more letters than half of the letters in Indras' name. First, find half of the letters in Indras' name:
+\[ \frac{6}{2} = 3 \]
+
+Then add 4 to that amount to get the total number of letters in her sister's name:
+\[ 3 + 4 = 7 \]
+
+So, her sister's name has 7 letters.
+
+Final answer:
+Indras' name has 6 letters, and her sister's name has 7 letters. Answer: 13"
+math-3,math,1,stop,"Step 1: Determine how many laps Trey can run.
+Bethany runs 10 laps in one hour.
+Trey can run 4 more laps than Bethany.
+So, Trey can run \(10 + 4 = 14\) laps.
+
+Step 2: Determine how many laps Shaelyn can run.
+Shaelyn can run half as many laps as Trey.
+So, Shaelyn can run \(\frac{14}{2} = 7\) laps.
+
+Step 3: Determine how many laps Quinn can run.
+Quinn can run 2 fewer laps than Shaelyn.
+So, Quinn can run \(7 - 2 = 5\) laps.
+
+Step 4: Calculate how many more laps Bethany can run compared to Quinn.
+Bethany runs 10 laps and Quinn runs 5 laps.
+So, Bethany can run \(10 - 5 = 5\) more laps than Quinn.
+
+Answer: 5"
+math-4,math,0,stop,"Let's break down the problem step by step:
+
+1. **Initial number of children**: There were originally 5 children.
+
+2. **Children after the first street**:
+   - After reaching the end of the first street, there are 5 children.
+   
+3. **Children after the second street**:
+   - Each of the 5 children joins another child, so we add 4 more children (since one child leaves).
+   - Total: \(5 + 4 = 9\) children.
+   
+4. **Children after the third street**:
+   - Each of the 9 children joins another 2 children, so we add \(9 \times 2 = 18\) more children.
+   - Total: \(9 + 18 = 27\) children.
+   
+5. **Final count of children**:
+   - Initially, there were 5 children.
+   - Then, 4 new children join (from the first street).
+   - Finally, 18 more children join (from the second street).
+
+So, the total number of children now following the truck is \(5 + 4 + 18 = 27\).
+
+Answer: 27"
+math-5,math,0,stop,"To determine how much time Kim slept on her bed that day, we need to follow these steps:
+
+1. **Determine the usual wake-up time**: Kim usually wakes up at 6:00 AM.
+2. **Calculate the actual wake-up time**: Since she woke up 5 minutes earlier than usual, her actual wake-up time was:
+   \[
+   6:00 \text{ AM} - 5 \text{ minutes} = 5:55 \text{ AM}
+   \]
+3. **Identify the start of her sleepwalking period**: Her sleepwalking started at 2:15 AM.
+4. **Identify the end of her sleepwalking period**: Her sleepwalking ended at 2:38 AM.
+
+Now, let's calculate the total duration of her sleepwalking period:
+\[
+2:38 \text{ AM} - 2:15 \text{ AM} = 23 \text{ minutes}
+\]
+
+So, the total time Kim spent asleep during her sleepwalking episode was 23 minutes.
+
+Answer: 23"
+math-6,math,1,stop,"Let's solve this problem step by step:
+
+1) Initially, Gunther has 48 bananas.
+
+2) Arnold steals half of them:
+   \( \frac{48}{2} = 24 \) bananas stolen.
+   So now Gunther has \( 48 - 24 = 24 \) bananas left.
+
+3) The next day, Gunther adds 25 more bananas:
+   \( 24 + 25 = 49 \) bananas total.
+
+4) Later that night, Arnold steals 12 more bananas:
+   \( 49 - 12 = 37 \) bananas remaining.
+
+5) On the third day, Gunther adds 6 more bananas:
+   \( 37 + 6 = 43 \) bananas total.
+
+So, after all these events, Gunther finds there are 43 bananas in the pile. Answer: 43"
+math-7,math,1,stop,"Let's break down the problem step by step:
+
+1) **Determine the number of measuring cups Jonathan has:**
+   - Two dozen means \(2 \times 12 = 24\) cups.
+   
+2) **Calculate the number of measuring spoons Jonathan has initially:**
+   - He has \(\frac{2}{3}\) times as many measuring spoons as measuring cups.
+   - So, if he has 24 cups, then he has \(\frac{2}{3} \times 24 = 16\) measuring spoons.
+
+3) **Account for the measuring spoons given to Pedro:**
+   - He gives 6 measuring spoons to Pedro.
+   - Subtract these from the initial amount: \(16 - 6 = 10\) measuring spoons left.
+
+4) **Add up all the utensils Jonathan has:**
+   - Measuring spoons: 10
+   - Measuring cups: 24
+   
+5) **Calculate the total number of utensils:**
+   - Total = Measuring spoons + Measuring cups = 10 + 24 = 34
+
+Answer: 34"
+math-8,math,1,stop,"To solve this problem, we need to determine how fast Martha's turtle moves and then calculate how far it will travel in 40 seconds.
+
+Step 1: Determine the speed of Martha's turtle.
+Since Martha's cat is 5 times faster than her turtle, and the cat runs at 15 feet per second, we can find the turtle's speed by dividing the cat's speed by 5:
+\[ \text{Speed of turtle} = \frac{\text{Speed of cat}}{5} = \frac{15 \text{ feet/second}}{5} = 3 \text{ feet/second} \]
+
+Step 2: Calculate how far the turtle travels in 40 seconds.
+Now that we know the turtle's speed (3 feet per second), we can multiply this by the time (40 seconds) to find out how far the turtle will have crawled:
+\[ \text{Distance traveled by turtle} = \text{Speed of turtle} \times \text{Time} = 3 \text{ feet/second} \times 40 \text{ seconds} = 120 \text{ feet} \]
+
+Answer: 120"
+math-9,math,0,length,"To solve this problem, we need to determine how many flights to France the first plane takes in one day.
+
+1. **Define Variables:**
+   - Let \( F \) be the number of flights to France.
+   - Let \( G \) be the number of flights to Greece.
+   - Let \( P \) be the number of flights to Poland.
+   - Let \( D \) be the number of flights to Germany.
+
+2. **Given Information:**
+   - The total number of flights is 80 (since the second plane makes 44 trips).
+   - The first plane flies to Greece for three-quarters of its flights.
+   - The remaining flights are split equally between flights to France and flights to Germany.
+   - The second plane flies exclusively to Poland, making 44 trips.
+   - The second plane's trips amount to half the number of trips the first plane makes.
+
+3. **Set Up Equations:**
+   - From the given information, we know:
+     \[
+     G = \frac{3}{4}F + \frac{1}{2}(D + G)
+     \]
+     Simplifying this equation:
+     \[
+     G = \frac{3}{4}F + \frac{1}{2}D + \frac{1}{2}G
+     \]
+     Rearranging terms to isolate \( G \):
+     \[
+     \frac{3}{4}G = \frac{1}{2}F + \frac{1}{2}D
+     \]
+     Multiplying through by 4 to clear the fractions:
+     \[
+     3G = 2F + D
+     \]
+
+4. **Use the Total Number of Trips:**
+   - We also know the total number of flights is 80:
+     \[
+     F + G + D + P = 80
+     \]
+     Since the second plane makes 44 trips, we have:
+     \[
+     P = 44
+     \]
+     Substituting \( P = 44 \) into the total flights equation:
+     \[
+     F + G + D + 44 = 80
+     \]
+     Simplifying:
+     \[
+     F + G + D = 36
+     \]
+
+5. **Substitute \( G \) from the First Plane's Flights:**
+   - Substitute \( G = \frac{3}{4}F + \frac{1}{2}(D + G) \) into \( F + G + D = 36 \):
+     \[
+     F + \left(\frac{3}{4}F + \frac{1}{2}(D + G)\right) + D = 36
+     \]
+     Simplify inside the parentheses:
+     \[
+     F + \left(\frac{3}{4}F + \frac{1}{2}D + \frac{1}{2}G\right) + D = 36
+     \]
+     Combine like terms:
+     \[
+     F + \frac{3}{4}F + \frac{1}{2}D + \frac{1}{2}G + D = 36
+     \]
+     Combine \( F \), \( \frac{3}{4}F \), and \( D \):
+     \[
+     \left(1 + \frac{3}{4}\right)F + \frac{1}{2}D + \frac{1}{2}G = 36
+     \]
+     Simplify the coefficient of \( F \):
+     \[
+     \frac{7}{"
+math-10,math,0,stop,"Let's solve this problem step by step.
+
+**Step 1:** Calculate the initial number of each type of balloon.
+- Red balloons: \(25\)
+- Green balloons: \(7\)
+- Yellow balloons: \(12\)
+
+**Step 2:** Determine how many red balloons burst due to the wind.
+- Percentage that burst: \(40\%\)
+- Number of red balloons that burst: \(25 \times 0.4 = 10\)
+
+**Step 3:** Calculate the number of red balloons left after some burst.
+- Remaining red balloons: \(25 - 10 = 15\)
+
+**Step 4:** Determine how many yellow balloons were released due to the noise.
+- Half of the yellow balloons were released: \(12 / 2 = 6\)
+
+**Step 5:** Add the blue balloons caught in the tree to the remaining balloons.
+- Blue balloons caught in the tree: \(8\)
+- Total balloons before adding more: \(15 + 7 + 6 = 28\)
+- Adding the blue balloons: \(28 + 8 = 36\)
+
+**Final answer:** Sally finally carried 36 balloons into the school. Answer: 36"
+math-11,math,1,stop,"Step 1: Determine the total number of each type of fruit Kira bought.
+- Apples: 3
+- Bananas: 5
+- Oranges: 6
+
+Step 2: Calculate the total number of fruits Kira bought.
+Total = Apples + Bananas + Oranges
+Total = 3 + 5 + 6
+Total = 14
+
+Step 3: Subtract the number of fruits eaten by Lola from the total number of fruits Kira bought.
+Fruits left = Total - Eaten
+Fruits left = 14 - 2
+Fruits left = 12
+
+Answer: 12"
+math-12,math,0,stop,"To solve this problem, we need to follow these steps:
+
+1. **Determine the initial amounts of water in each type of drink.**
+2. **Calculate how much orange drink remains after spilling one liter.**
+3. **Combine the remaining orange drink with the pineapple drink.**
+4. **Calculate the total amount of water from both drinks combined.**
+
+Let's start with the first step.
+
+### Step 1: Determine the initial amounts of water in each type of drink.
+- Orange drink: 10 liters, which is two-thirds water.
+  \[
+  \text{Water in orange drink} = \frac{2}{3} \times 10 = \frac{20}{3} \approx 6.67 \text{ liters}
+  \]
+- Pineapple drink: 15 liters, which is three-fifths water.
+  \[
+  \text{Water in pineapple drink} = \frac{3}{5} \times 15 = 9 \text{ liters}
+  \]
+
+### Step 2: Calculate how much orange drink remains after spilling one liter.
+- Initially, there were 10 liters of orange drink.
+- After spilling 1 liter, there are:
+  \[
+  10 - 1 = 9 \text{ liters of orange drink}
+  \]
+
+### Step 3: Combine the remaining orange drink with the pineapple drink.
+- Remaining orange drink: 9 liters.
+- Pineapple drink: 15 liters (unchanged).
+
+### Step 4: Calculate the total amount of water from both drinks combined.
+- Water from orange drink: 6.67 liters.
+- Water from pineapple drink: 9 liters.
+  \[
+  \text{Total water} = 6.67 + 9 = 15.67 \text{ liters}
+  \]
+
+So, the answer is:
+Answer: 15.67 liters"
+math-13,math,1,stop,"To solve this problem, we need to determine the total number of movies Jill and her friends watch over four weekends.
+
+1. **Movies watched on Saturday**:
+   - They watch 4 movies each Saturday.
+   - Therefore, for one weekend (Saturday), they watch \(4\) movies.
+
+2. **Movies watched on Sunday**:
+   - On Sunday, they watch half as many movies as they do on Saturday.
+   - Since they watch 4 movies on Saturday, on Sunday they watch \(\frac{4}{2} = 2\) movies.
+
+3. **Total movies watched per weekend**:
+   - For one weekend (one Saturday plus one Sunday), they watch \(4 + 2 = 6\) movies.
+
+4. **Total movies watched over four weekends**:
+   - Over four weekends, they will watch \(4 \times 6 = 24\) movies.
+
+Therefore, the total number of movies they can watch in 4 weeks is:
+
+Answer: 24"
+math-14,math,1,stop,"To determine how many questions Mark left incomplete, we need to calculate the number of questions he could have answered correctly for each test based on his given rate (5 questions per hour) and then subtract this from the total number of questions in each test.
+
+**Step 1: Calculate the number of questions Mark could have answered correctly for the first test.**
+
+- The first test has 75 questions.
+- Mark can answer these questions at a rate of 5 questions per hour.
+- He has 8 hours available for the first test.
+
+So, the number of questions he could have answered correctly is:
+\[ \text{Questions answered} = \text{Rate} \times \text{Time} = 5 \text{ questions/hour} \times 8 \text{ hours} = 40 \text{ questions} \]
+
+**Step 2: Determine how many questions were left unanswered for the first test.**
+
+The number of questions left unanswered is:
+\[ \text{Unanswered questions} = \text{Total questions} - \text{Questions answered} = 75 - 40 = 35 \text{ questions} \]
+
+**Step 3: Calculate the number of questions Mark could have answered correctly for the second test.**
+
+- The second test has 100 questions.
+- Mark can answer these questions at a rate of 5 questions per hour.
+- He has 6 hours available for the second test.
+
+So, the number of questions he could have answered correctly is:
+\[ \text{Questions answered} = \text{Rate} \times \text{Time} = 5 \text{ questions/hour} \times 6 \text{ hours} = 30 \text{ questions} \]
+
+**Step 4: Determine how many questions were left unanswered for the second test.**
+
+The number of questions left unanswered is:
+\[ \text{Unanswered questions} = \text{Total questions} - \text{Questions answered} = 100 - 30 = 70 \text{ questions} \]
+
+**Final Step:** Add the number of unanswered questions from both tests to find the total number of questions left incomplete:
+
+\[ \text{Total unanswered questions} = \text{Unanswered questions from the first test} + \text{Unanswered questions from the second test} = 35 + 70 = 105 \text{ questions} \]
+
+Answer: 105"
+math-15,math,1,stop,"Step 1: Determine how many friends Amy has.
+- We know that Amy made 20 more friends than Lily.
+- Lily made 50 friends.
+
+So, Amy's number of friends = Lily's number of friends + 20
+
+Amy's number of friends = 50 + 20 = 70
+
+Step 2: Calculate the total number of friends both Amy and Lily have together.
+- Amy has 70 friends.
+- Lily has 50 friends.
+
+Total friends = Amy's friends + Lily's friends
+
+Total friends = 70 + 50 = 120
+
+Answer: 120"
+math-16,math,0,stop,"To determine how many oranges are good, we need to follow these steps:
+
+1. **Calculate the number of unripe oranges**: 
+   - The problem states that 20% of the oranges are unripe.
+   - There are 25 oranges in total.
+   \[
+   \text{Number of unripe oranges} = 20\% \times 25 = 0.20 \times 25 = 5
+   \]
+
+2. **Determine the number of sour oranges**:
+   - The problem states there are 2 sour oranges.
+
+3. **Calculate the total number of bad oranges (unripe + sour)**:
+   \[
+   \text{Total number of bad oranges} = 5 (\text{unripe}) + 2 (\text{sour}) = 7
+   \]
+
+4. **Find the number of good oranges**:
+   - Subtract the number of bad oranges from the total number of oranges.
+   \[
+   \text{Number of good oranges} = 25 (\text{total}) - 7 (\text{bad}) = 18
+   \]
+
+Therefore, the number of good oranges is \(18\)."
+math-17,math,1,stop,"To solve this problem, we need to calculate the total cost of 6 erasers and 8 pencils.
+
+Step 1: Calculate the cost of 6 erasers.
+- Each eraser costs $2.
+- Therefore, for 6 erasers, the cost is \(6 \times 2 = \$12\).
+
+Step 2: Calculate the cost of 8 pencils.
+- Each pencil costs $3.
+- Therefore, for 8 pencils, the cost is \(8 \times 3 = \$24\).
+
+Step 3: Add the two amounts together to find the total cost.
+- The total cost is \(12 + 24 = \$36\).
+
+Answer: 36"
+math-18,math,0,stop,"To determine how many face masks Tyrion uses every 2 days, we can break down the problem into smaller steps:
+
+1. **Determine the number of face masks used per day:**
+   - Tyrion changes his face mask twice each time he goes out.
+   - He goes out three times a day.
+
+   Therefore, for one day:
+   \[
+   3 \text{ (outings)} \times 2 \text{ (face masks per outing)} = 6 \text{ face masks}
+   \]
+
+2. **Calculate the total number of face masks used over 2 days:**
+   - We know that Tyrion uses 6 face masks per day.
+   - Over 2 days, he would use:
+   \[
+   6 \text{ face masks/day} \times 2 \text{ days} = 12 \text{ face masks}
+   \]
+
+So, Tyrion uses 12 face masks every 2 days."
+math-19,math,1,stop,"Let's solve this problem step by step.
+
+1. **Identify the number of each type of stamp:**
+   - Snowflake stamps: \( S = 16 \)
+   - Truck stamps: \( T = S + 3 = 16 + 3 = 19 \)
+   - Rose stamps: \( R = T - 9 = 19 - 9 = 10 \)
+
+2. **Calculate the total number of stamps:**
+   - Total stamps = Number of snowflake stamps + Number of truck stamps + Number of rose stamps
+   - Total stamps = \( S + T + R = 16 + 19 + 10 = 45 \)
+
+So, the total number of stamps Max bought is 45."
+math-20,math,0,stop,"Let's break down the problem step by step:
+
+1. Initially, Katelyn sees 50 fairies.
+
+2. Her friend sees half as many fairies as Katelyn saw coming from the east. So, her friend sees \( \frac{50}{2} = 25 \) fairies.
+
+3. Then, 30 fairies fly away after ten minutes.
+
+To find out how many fairies remain, we subtract the number of fairies that flew away from the total number of fairies initially seen:
+\[ 50 - 30 = 20 \]
+
+So, the answer is: Answer: 20"
+math-21,math,1,stop,"To solve this problem, we need to convert all measurements to the same unit and then perform the calculation.
+
+Step 1: Convert the length of the wire from feet to inches.
+- There are 12 inches in a foot.
+- So, 4 feet = 4 * 12 inches = 48 inches.
+
+Step 2: Determine how many 6-inch pieces can be obtained from the 48-inch wire.
+- To find out how many pieces can be made, divide the total length by the length of each piece.
+- Number of pieces = Total length / Length per piece
+- Number of pieces = 48 inches / 6 inches
+
+Step 3: Perform the division.
+- 48 ÷ 6 = 8
+
+Answer: Tracy obtained 8 pieces of wire that were 6 inches long."
+math-22,math,1,stop,"To determine how many students were in the school auditorium, we need to follow these steps:
+
+1. **Calculate the total number of seats in the auditorium:**
+   \[
+   \text{Total seats} = \text{Number of rows} \times \text{Seats per row}
+   \]
+   \[
+   \text{Total seats} = 4 \times 18 = 72
+   \]
+
+2. **Determine the number of seats occupied by the administrators:**
+   \[
+   \text{Seats occupied by administrators} = \frac{1}{4} \times \text{Total seats}
+   \]
+   \[
+   \text{Seats occupied by administrators} = \frac{1}{4} \times 72 = 18
+   \]
+
+3. **Calculate the number of seats remaining after accounting for the administrators:**
+   \[
+   \text{Remaining seats} = \text{Total seats} - \text{Seats occupied by administrators}
+   \]
+   \[
+   \text{Remaining seats} = 72 - 18 = 54
+   \]
+
+4. **Determine the number of seats occupied by the parents:**
+   \[
+   \text{Seats occupied by parents} = \frac{1}{3} \times \text{Remaining seats}
+   \]
+   \[
+   \text{Seats occupied by parents} = \frac{1}{3} \times 54 = 18
+   \]
+
+5. **Calculate the number of seats occupied by the students:**
+   \[
+   \text{Seats occupied by students} = \text{Remaining seats} - \text{Seats occupied by parents}
+   \]
+   \[
+   \text{Seats occupied by students} = 54 - 18 = 36
+   \]
+
+Therefore, the number of students in the school auditorium is:
+\[
+\boxed{36}
+\]"
+math-23,math,1,stop,"To solve this problem, we need to determine how much Ellen spends on carrots each day.
+
+First, let's find out the cost of the yogurt:
+- The yogurt costs half the price of the salad.
+- The salad costs $6.
+- Therefore, the yogurt costs \( \frac{6}{2} = \$3 \).
+
+Next, let's calculate the daily cost of the salad and the yogurt together:
+- Salad: $6
+- Yogurt: $3
+
+Adding these together gives us the total cost for the salad and yogurt per day:
+\[ 6 + 3 = \$9 \]
+
+Now, we know that Ellen eats two carrots every day. Let's denote the cost of one carrot as \( C \). Since there are two carrots, their combined cost would be \( 2C \).
+
+The total amount spent by Ellen each day is given as $11. This includes the cost of the salad, the yogurt, and the two carrots. So, we can set up the following equation:
+
+\[ 9 + 2C = 11 \]
+
+To find \( C \), we subtract 9 from both sides of the equation:
+\[ 2C = 11 - 9 \]
+\[ 2C = 2 \]
+
+Then, we divide both sides by 2:
+\[ C = \frac{2}{2} \]
+\[ C = 1 \]
+
+So, Ellen pays $1 for one carrot every day.
+
+Answer: 1"
+math-24,math,0,stop,"To determine how many points Erin had before scoring 14 points, we need to follow these steps:
+
+1. **Determine Sara's score**: According to the problem, Sara scored 8 points.
+2. **Calculate Erin's total score after scoring 14 points**: After scoring 14 points, Erin has a total of \(14\) points.
+3. **Express Erin's initial score as a variable**: Let's denote Erin's initial score as \(E\).
+4. **Set up an equation based on the relationship between Erin's scores**:
+   - We know that Erin now has three times more points than Sara.
+   - Therefore, Erin's current score is \(3 \times 8 = 24\) points.
+
+5. **Formulate the equation**:
+   \[
+   E + 14 = 24
+   \]
+
+6. **Solve for \(E\)**:
+   \[
+   E + 14 = 24 \\
+   E = 24 - 14 \\
+   E = 10
+   \]
+
+So, Erin had 10 points before she scored 14 points.
+
+Answer: 10"
+math-25,math,1,stop,"Let's break down Scarlett's expenses step by step:
+
+1. **Aquarium**: 
+   - Cost: $10.00
+
+2. **Rocks**:
+   - Number of bags: 2
+   - Price per bag: $2.50
+   - Total cost for rocks = \(2 \times \$2.50 = \$5.00\)
+
+3. **Coral**:
+   - Number of pieces: 3
+   - Price per piece: $2.00
+   - Total cost for coral = \(3 \times \$2.00 = \$6.00\)
+
+4. **Fish**:
+   - Number of fish: 20
+   - Price per fish: $0.50
+   - Total cost for fish = \(20 \times \$0.50 = \$10.00\)
+
+5. **Fish Food**:
+   - Cost: $2.00
+
+Now, let's add up all these costs to find out how much Scarlett spent in total.
+
+Total cost = Aquarium + Rocks + Coral + Fish + Fish Food
+Total cost = $10.00 + $5.00 + $6.00 + $10.00 + $2.00
+Total cost = $33.00
+
+Answer: $33.00"
+math-26,math,0,stop,"To solve this problem, we need to calculate how many apartments John collects garbage from in total and then determine his weekly earnings based on that.
+
+1. **Calculate the number of apartments in the third complex:**
+   - Each of the first two complexes has 200 apartments.
+   - The third complex is 60% bigger than the sum of the first two complexes.
+   
+   First, find the sum of the first two complexes:
+   \[
+   200 + 200 = 400 \text{ apartments}
+   \]
+   
+   Next, calculate 60% of 400:
+   \[
+   0.60 \times 400 = 240 \text{ apartments}
+   \]
+   
+   Now add this to the original sum:
+   \[
+   400 + 240 = 640 \text{ apartments}
+   \]
+
+2. **Calculate the total number of apartments collected weekly:**
+   - There are three complexes.
+   - Each complex is collected 3 times a week.
+   
+   Multiply the number of complexes by the number of collections per week:
+   \[
+   3 \times 3 = 9 \text{ collections per week}
+   \]
+
+3. **Calculate the total amount earned per week:**
+   - John earns $0.40 per collection.
+   - He makes 9 collections per week.
+   
+   Multiply the number of collections by the payment rate:
+   \[
+   9 \times 0.40 = 3.60 \text{ dollars}
+   \]
+
+Therefore, John makes $\boxed{3.60}$ dollars in a week."
+math-27,math,1,stop,"To solve this problem, we need to calculate the probabilities of Jerry rolling a number greater than 3 and rolling two even numbers in a row.
+
+1. **Probability of rolling a number greater than 3**:
+   - The possible outcomes for a number greater than 3 on a six-sided die are 4, 5, and 6.
+   - There are 3 favorable outcomes out of 6 possible outcomes.
+   - Therefore, the probability \( P(\text{greater than 3}) \) is:
+     \[
+     P(\text{greater than 3}) = \frac{3}{6} = 0.5
+     \]
+
+2. **Probability of rolling two even numbers in a row**:
+   - The possible outcomes for an even number on a six-sided die are 2, 4, and 6.
+   - There are 3 favorable outcomes for each roll.
+   - Since the rolls are independent, the combined probability is:
+     \[
+     P(\text{even then even}) = \left( \frac{3}{6} \right) \times \left( \frac{3}{6} \right) = \left( \frac{1}{2} \right)^2 = 0.25
+     \]
+
+3. **Difference between the two probabilities**:
+   - We subtract the probability of rolling a number greater than 3 from the probability of rolling two even numbers in a row:
+     \[
+     P(\text{two even then one greater}) = P(\text{even then even}) - P(\text{greater than 3})
+     \]
+     \[
+     P(\text{two even then one greater}) = 0.25 - 0.5 = -0.25
+     \]
+
+Since the result is negative, it means that the event ""rolling a number greater than 3"" is actually less likely than rolling two even numbers in a row. To express this difference as a positive value:
+
+- The absolute difference is:
+  \[
+  |P(\text{two even then one greater})| = |-0.25| = 0.25
+  \]
+
+Therefore, the answer is: Answer: 25%"
+math-28,math,0,stop,"To solve this problem, let's break it down into steps:
+
+1) First, calculate the total number of bagels Russell gets when he orders 4 packs:
+   - Each pack contains 9 bagels.
+   - He is ordering 4 packs.
+   - Total bagels = 4 packs * 9 bagels/pack = 36 bagels.
+
+2) Next, determine the original price for these 36 bagels without any discount:
+   - Each bagel costs $10.00.
+   - So, the total cost before discount = 36 bagels * $10.00/bagel = $360.00.
+
+3) Now, apply the 10% discount to the total cost:
+   - The discount amount = 10% of $360.00 = 0.10 * $360.00 = $36.00.
+   - Discounted total cost = Original total cost - Discount amount = $360.00 - $36.00 = $324.00.
+
+4) Finally, find out the cost per single bagel after applying the discount:
+   - There are now 36 bagels left (since one whole pack was used).
+   - Cost per single bagel = Total discounted cost / Number of bagels = $324.00 / 36 bagels = $9.00/bagel.
+
+Answer: Each single bagel will cost $9.00."
+math-29,math,1,stop,"Step 1: Let's denote the length of the shorter piece as \( x \) feet.
+Step 2: According to the problem, the longer piece is 4 times longer than the shorter piece, which means it is \( 4x \) feet long.
+Step 3: Since Ian cuts the board into two pieces and the total length of the board is 40 feet, we can set up the equation:
+\[ x + 4x = 40 \]
+Step 4: Combine like terms on the left side of the equation:
+\[ 5x = 40 \]
+Step 5: Solve for \( x \) by dividing both sides of the equation by 5:
+\[ x = \frac{40}{5} = 8 \]
+So, the shorter piece is 8 feet long.
+Step 6: Now, calculate the length of the longer piece, which is 4 times the length of the shorter piece:
+\[ 4x = 4 \times 8 = 32 \]
+Answer: The longer piece is 32 feet long."
+math-30,math,1,stop,"To determine how long 720 grams of cat food will last for Imma's three cats, we need to follow these steps:
+
+1. **Calculate the daily consumption of cat food per cat:**
+   - Each cat is fed 60 grams of cat food twice a day.
+   \[
+   \text{Daily consumption per cat} = 60 \text{ grams/meal} \times 2 \text{ meals/day} = 120 \text{ grams/day}
+   \]
+
+2. **Calculate the total daily consumption for all three cats:**
+   - There are 3 cats.
+   \[
+   \text{Total daily consumption} = 120 \text{ grams/cat} \times 3 \text{ cats} = 360 \text{ grams/day}
+   \]
+
+3. **Determine how many days 720 grams of cat food will last:**
+   - We have 720 grams of cat food available.
+   \[
+   \text{Number of days} = \frac{\text{Total amount of cat food}}{\text{Daily consumption}} = \frac{720 \text{ grams}}{360 \text{ grams/day}}
+   \]
+   Simplifying this fraction:
+   \[
+   \frac{720}{360} = 2
+   \]
+
+So, 720 grams of cat food will last for Imma's three cats for 2 days.
+
+Answer: 2"
+math-31,math,1,stop,"Let's solve this problem step by step:
+
+1) Nissa initially hires 60 seasonal workers.
+
+2) A third of the elves quit after children vomit on them:
+   - One-third of 60 is \( \frac{1}{3} \times 60 = 20 \)
+   - So, 20 elves quit
+
+3) After the first group quits, there are \( 60 - 20 = 40 \) elves left.
+
+4) Then, 10 of the remaining elves quit after kids kick their shins:
+   - We subtract these 10 from the 40 remaining elves.
+   - So, \( 40 - 10 = 30 \)
+
+Therefore, the number of elves left is 30.
+
+Answer: 30"
+math-32,math,1,stop,"Step 1: Calculate the total cost of candies of type A.
+Cost of candies of type A = Number of candies × Cost per candy
+= 7 candies × $0.5/candy
+= $3.5
+
+Step 2: Calculate the total cost of candies of type B.
+Cost of candies of type B = Number of candies × Cost per candy
+= 10 candies × $0.75/candy
+= $7.5
+
+Step 3: Calculate the total amount spent.
+Total amount spent = Cost of candies of type A + Cost of candies of type B
+= $3.5 + $7.5
+= $11
+
+Step 4: Calculate the change received.
+Change received = Amount paid - Total amount spent
+= $15 - $11
+= $4
+
+Answer: $4"
+math-33,math,1,stop,"To determine how far Elvis is from his house after completing his trip, we need to calculate the total distance traveled in each direction and then find the net displacement.
+
+Step 1: Calculate the distance traveled west.
+- Distance = Speed × Time
+- Westward travel: \( 5 \text{ hours} \times 18 \text{ mph} = 90 \text{ miles} \)
+
+Step 2: Calculate the distance traveled east.
+- Eastward travel: \( 8 \text{ hours} \times 18 \text{ mph} = 144 \text{ miles} \)
+
+Step 3: Determine the net displacement.
+- Net displacement (distance from home) = Distance traveled west - Distance traveled east
+- Net displacement = \( 90 \text{ miles} - 144 \text{ miles} = -54 \text{ miles} \)
+- The negative sign indicates that Elvis has moved away from his starting point.
+
+Answer: 54 miles"
+math-34,math,0,stop,"To determine how much money Cameron would save, we need to calculate the cost of his stay under both options and then find the difference.
+
+**Step 1: Calculate the cost if he pays for 24 hours.**
+
+- The base price is 1600 pesos.
+- For any additional hours beyond 12, he adds 70 pesos per hour.
+
+Cameron stays from 5 pm (which is 17:00) until 10 am the next day (which is 08:00). This means he stays for:
+\[ 10 - 17 = -7 \text{ hours} \]
+Since he doesn't stay more than 12 hours, this calculation shows that he actually stays less than 12 hours. Therefore, he only needs to pay for the first 12 hours plus the additional hours up to 10 am.
+
+The total cost would be:
+\[ 1600 + (10 - 17) \times 70 = 1600 + (-7) \times 70 = 1600 - 490 = 1110 \text{ pesos} \]
+
+**Step 2: Calculate the cost if he chooses the option of adding 70 pesos for each additional hour.**
+
+- The base price is still 1600 pesos.
+- For any additional hours beyond 12, he adds 70 pesos per hour.
+
+Again, Cameron stays for:
+\[ 10 - 17 = -7 \text{ hours} \]
+This negative result indicates that he stays less than 12 hours. So, he only needs to pay for the first 12 hours plus the additional hours up to 10 am.
+
+The total cost would be:
+\[ 1600 + (10 - 12) \times 70 = 1600 + (-2) \times 70 = 1600 - 140 = 1460 \text{ pesos} \]
+
+**Step 3: Determine the savings.**
+
+The cost under the second option ($1460 pesos) is higher than the cost under the first option ($1110 pesos). Therefore, Cameron does not save any money; rather, he saves $1460 - $1110 = $350.
+
+Answer: 350"
+math-35,math,0,stop,"Step 1: Calculate the base cost of installing the initial items.
+- Mirrors: 6 * $129 = $774
+- Chandeliers: 1 * $129 = $129
+- Pictures: 20 * $129 = $2580
+
+Total base cost = $774 + $129 + $2580 = $3483
+
+Step 2: Determine how many additional items need to be installed beyond the initial ones.
+- Additional mirrors needed: 6 - 4 = 2
+- Additional chandeliers needed: 1 - 1 = 0 (since one is already included)
+- Additional pictures needed: 20 - 10 = 10
+
+Step 3: Calculate the total cost for the additional items.
+- Cost per additional item: $15.00
+- Total number of additional items: 2 + 0 + 10 = 12
+
+Total additional cost = 12 * $15 = $180
+
+Step 4: Add the additional cost to the base cost to get the total cost.
+Total cost = Base cost + Additional cost = $3483 + $180 = $3663
+
+Answer: $3663"
+math-36,math,1,stop,"To solve this problem, we need to follow these steps:
+
+1. Determine the price of Juan's house.
+2. Calculate the difference between the prices of Juan's and Herb's houses.
+3. Add the prices of both houses together to find their combined value.
+
+Step 1: Determine the price of Juan's house.
+Herb's house cost $76,000. Since Juan's house is 30% less expensive than Herb's, we can calculate the price of Juan's house as follows:
+\[ \text{Price of Juan's house} = \text{Price of Herb's house} - (\text{Price of Herb's house} \times 0.30) \]
+\[ \text{Price of Juan's house} = 76,000 - (76,000 \times 0.30) \]
+\[ \text{Price of Juan's house} = 76,000 - 22,800 \]
+\[ \text{Price of Juan's house} = 53,200 \]
+
+Step 2: Calculate the difference between the prices of Juan's and Herb's houses.
+The difference is:
+\[ \text{Difference} = \text{Price of Herb's house} - \text{Price of Juan's house} \]
+\[ \text{Difference} = 76,000 - 53,200 \]
+\[ \text{Difference} = 22,800 \]
+
+Step 3: Add the prices of both houses together to find their combined value.
+\[ \text{Combined value} = \text{Price of Juan's house} + \text{Price of Herb's house} \]
+\[ \text{Combined value} = 53,200 + 76,000 \]
+\[ \text{Combined value} = 129,200 \]
+
+Answer: 129,200"
+math-37,math,0,stop,"To solve this problem, we need to break it down into smaller steps:
+
+### Step 1: Calculate the number of movies that are not in series.
+- Total movies = 600
+- Movies in series = \(\frac{1}{3} \times 600 = 200\)
+- Remaining movies (not in series) = \(600 - 200 = 400\)
+
+### Step 2: Determine how many of these remaining movies are older movies.
+- Percentage of older movies = 40%
+- Number of older movies = \(40\% \times 400 = 0.40 \times 400 = 160\)
+
+### Step 3: Calculate the cost of the older movies.
+- Cost per older movie = $5
+- Total cost for older movies = \(160 \times 5 = \$800\)
+
+### Step 4: Calculate the cost of the movies that are not in series but are still considered ""normal"" movies.
+- Remaining movies after subtracting series = 400
+- These include both newer movies and some older movies.
+- Since all movies are either in series or older movies, there are no other categories left.
+
+### Step 5: Calculate the total cost of replacing all movies.
+- Cost of each normal movie = $10
+- Total cost for normal movies = \(600 \times 10 = \$6000\)
+
+### Final Calculation:
+- Total cost for older movies = $800
+- Total cost for normal movies = $6000
+
+Total cost to replace all movies = \(800 + 6000 = \$6800\)
+
+Answer: 6800"
+math-38,math,1,stop,"To determine how much crepe paper James needs to buy, we need to calculate the perimeter of the rectangular backyard fence.
+
+Step 1: Identify the dimensions of the rectangle.
+- The length (L) of the rectangle is 20 feet.
+- The width (W) of the rectangle is 15 feet.
+
+Step 2: Use the formula for the perimeter of a rectangle.
+The perimeter \( P \) of a rectangle is given by:
+\[ P = 2 \times (\text{length} + \text{width}) \]
+
+Step 3: Substitute the given values into the formula.
+\[ P = 2 \times (20 + 15) \]
+
+Step 4: Perform the addition inside the parentheses.
+\[ P = 2 \times 35 \]
+
+Step 5: Multiply to find the total length of the perimeter.
+\[ P = 70 \]
+
+Answer: James needs to buy 70 feet of crepe paper."
+math-39,math,1,stop,"To determine how much Mark pays for everything, we need to break down the costs into several steps:
+
+1. **Calculate the total cost of the cars before taxes and registration fees:**
+   - Number of cars: 12
+   - Cost per car: $20,000
+   \[
+   \text{Total cost of cars} = 12 \times 20,000 = \$240,000
+   \]
+
+2. **Calculate the tax on the cars:**
+   - Tax rate: 10%
+   \[
+   \text{Tax amount} = 10\% \times 240,000 = 0.10 \times 240,000 = \$24,000
+   \]
+
+3. **Calculate the total cost after adding the tax:**
+   \[
+   \text{Total cost after tax} = 240,000 + 24,000 = \$264,000
+   \]
+
+4. **Add the registration fee for each car:**
+   - Registration fee per car: $1,000
+   \[
+   \text{Total registration fee} = 12 \times 1,000 = \$12,000
+   \]
+
+5. **Calculate the final total cost by adding the registration fee to the total cost after tax:**
+   \[
+   \text{Final total cost} = 264,000 + 12,000 = \$276,000
+   \]
+
+Answer: $276,000"
+knowledge-0,knowledge,0,stop,D
+knowledge-1,knowledge,0,stop,A
+knowledge-2,knowledge,1,stop,C
+knowledge-3,knowledge,0,stop,D
+knowledge-4,knowledge,1,stop,A
+knowledge-5,knowledge,0,stop,A
+knowledge-6,knowledge,1,stop,B
+knowledge-7,knowledge,1,stop,C
+knowledge-8,knowledge,0,stop,B
+knowledge-9,knowledge,0,stop,D
+knowledge-10,knowledge,0,stop,B
+knowledge-11,knowledge,0,stop,B
+knowledge-12,knowledge,1,stop,D
+knowledge-13,knowledge,0,stop,A
+knowledge-14,knowledge,1,stop,B
+knowledge-15,knowledge,0,stop,C
+knowledge-16,knowledge,0,stop,B
+knowledge-17,knowledge,1,stop,C
+knowledge-18,knowledge,0,stop,A
+knowledge-19,knowledge,1,stop,C
+knowledge-20,knowledge,0,stop,D
+knowledge-21,knowledge,1,stop,B
+knowledge-22,knowledge,1,stop,A
+knowledge-23,knowledge,0,stop,B
+knowledge-24,knowledge,1,stop,D
+knowledge-25,knowledge,0,stop,C
+knowledge-26,knowledge,1,stop,B
+knowledge-27,knowledge,1,stop,A
+knowledge-28,knowledge,0,stop,B
+knowledge-29,knowledge,1,stop,C
+format-0,format,1,stop,"{
+  ""name"": ""Neha"",
+  ""age"": 28,
+  ""city"": ""Pune""
+}"
+format-1,format,1,stop,"{
+  ""name"": ""Karan"",
+  ""age"": 35,
+  ""city"": ""Jaipur""
+}"
+format-2,format,1,stop,"{
+  ""name"": ""Neha"",
+  ""age"": 55,
+  ""city"": ""Delhi""
+}"
+format-3,format,1,stop,"{
+  ""name"": ""Priya"",
+  ""age"": 22,
+  ""city"": ""Delhi""
+}"
+format-4,format,1,stop,"{
+  ""name"": ""Karan"",
+  ""age"": 53,
+  ""city"": ""Kochi""
+}"
+format-5,format,1,stop,"{
+  ""name"": ""Divya"",
+  ""age"": 33,
+  ""city"": ""Surat""
+}"
+format-6,format,1,stop,"{
+  ""name"": ""Karan"",
+  ""age"": 49,
+  ""city"": ""Kochi""
+}"
+format-7,format,1,stop,"{
+  ""name"": ""Kavya"",
+  ""age"": 21,
+  ""city"": ""Jaipur""
+}"
+format-8,format,1,stop,"{
+  ""name"": ""Vikram"",
+  ""age"": 38,
+  ""city"": ""Jaipur""
+}"
+format-9,format,1,stop,"{
+  ""name"": ""Kavya"",
+  ""age"": 42,
+  ""city"": ""Delhi""
+}"
+format-10,format,1,stop,"{
+  ""name"": ""Sneha"",
+  ""age"": 27,
+  ""city"": ""Hisar""
+}"
+format-11,format,1,stop,"{
+  ""name"": ""Rohan"",
+  ""age"": 37,
+  ""city"": ""Pune""
+}"
+format-12,format,1,stop,"{
+  ""name"": ""Divya"",
+  ""age"": 28,
+  ""city"": ""Lucknow""
+}"
+format-13,format,1,stop,"{
+  ""name"": ""Divya"",
+  ""age"": 39,
+  ""city"": ""Kochi""
+}"
+format-14,format,1,stop,"{
+  ""name"": ""Rohan"",
+  ""age"": 33,
+  ""city"": ""Delhi""
+}"
+format-15,format,1,stop,"{
+  ""name"": ""Neha"",
+  ""age"": 35,
+  ""city"": ""Kolkata""
+}"
+format-16,format,1,stop,"{
+  ""name"": ""Sahil"",
+  ""age"": 35,
+  ""city"": ""Delhi""
+}"
+format-17,format,1,stop,"{
+  ""name"": ""Meera"",
+  ""age"": 50,
+  ""city"": ""Hisar""
+}"
+format-18,format,1,stop,"{
+  ""name"": ""Vikram"",
+  ""age"": 43,
+  ""city"": ""Chennai""
+}"
+format-19,format,1,stop,"{
+  ""name"": ""Amit"",
+  ""age"": 25,
+  ""city"": ""Kochi""
+}"
+format-20,format,1,stop,"{
+  ""name"": ""Divya"",
+  ""age"": 36,
+  ""city"": ""Jaipur""
+}"
+format-21,format,1,stop,"{
+  ""name"": ""Sneha"",
+  ""age"": 38,
+  ""city"": ""Surat""
+}"
+format-22,format,1,stop,"{
+  ""name"": ""Neha"",
+  ""age"": 41,
+  ""city"": ""Pune""
+}"
+format-23,format,1,stop,"{
+  ""name"": ""Sahil"",
+  ""age"": 23,
+  ""city"": ""Hisar""
+}"
+format-24,format,1,stop,"{
+  ""name"": ""Meera"",
+  ""age"": 25,
+  ""city"": ""Chennai""
+}"
+format-25,format,1,stop,"{
+  ""name"": ""Karan"",
+  ""age"": 52,
+  ""city"": ""Lucknow""
+}"
+format-26,format,1,stop,"{
+  ""name"": ""Anita"",
+  ""age"": 37,
+  ""city"": ""Jaipur""
+}"
+format-27,format,1,stop,"{
+  ""name"": ""Amit"",
+  ""age"": 56,
+  ""city"": ""Surat""
+}"
+format-28,format,1,stop,"{
+  ""name"": ""Amit"",
+  ""age"": 58,
+  ""city"": ""Lucknow""
+}"
+format-29,format,1,stop,"{
+  ""name"": ""Vikram"",
+  ""age"": 35,
+  ""city"": ""Jaipur""
+}"
